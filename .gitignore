@@ -49,3 +49,9 @@ coverage/
 # Temporary and cache files
 .cache/
 .tmp/
+
+# Deployment archives
+*.zip
+*.tar.gz
+hostinger-deploy.zip
+

@@ -13,7 +13,7 @@
     "dev:api": "npm run dev --workspace=@signal/api",
     "dev:worker": "npm run dev --workspace=@signal/worker",
     "build": "npm run build --workspaces --if-present",
-    "build:packages": "npm run build --workspace=@signal/shared --workspace=@signal/database --workspace=@signal/scanner-rules",
+    "build:packages": "npm run build --workspace=@signal/shared --workspace=@signal/scanner-rules --workspace=@signal/database",
     "build:api": "npm run build:packages && npm run build --workspace=@signal/api",
     "build:worker": "npm run build:packages && npm run build --workspace=@signal/worker",
     "build:web": "npm run build --workspace=@signal/web",

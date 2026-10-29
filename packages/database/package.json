@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@prisma/client": "^6.4.1",
+    "@signal/scanner-rules": "*",
     "@signal/shared": "*"
   },
   "devDependencies": {

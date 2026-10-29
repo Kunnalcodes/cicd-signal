@@ -31,5 +31,8 @@
     "concurrently": "^9.2.5",
     "oxlint": "^1.81.0",
     "typescript": "~6.0.2"
+  },
+  "overrides": {
+    "deepmerge-ts": "^8.0.2"
   }
 }

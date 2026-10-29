@@ -4,4 +4,10 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  build: {
+    // Disable sourcemaps for production
+    sourcemap: false,
+  },
+  // Ensure env vars prefixed with VITE_ are available
+  envPrefix: "VITE_",
 });

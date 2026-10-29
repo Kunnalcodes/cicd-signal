@@ -5,9 +5,10 @@ loadMonorepoEnv();
 import { createApp } from "./app";
 
 const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 4000;
+const HOST = process.env.HOST || "0.0.0.0";
 const app = createApp();
 
-const server = app.listen(PORT, () => {
+const server = app.listen(PORT, HOST, () => {
   console.log(
     formatLogEntry("api", "info", `Signal API server listening on port ${PORT}`, {
       port: PORT,

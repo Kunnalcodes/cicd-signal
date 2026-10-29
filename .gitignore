@@ -20,6 +20,9 @@ out/
 *.key
 *.cert
 
+# NOTE: .env.example and .env.production (with placeholder URLs only) ARE committed
+# apps/web/.env.production contains only VITE_API_URL placeholder — safe to commit
+
 # Logs
 logs/
 *.log

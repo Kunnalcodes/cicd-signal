@@ -49,3 +49,4 @@ COPY package.json ./
 RUN npx prisma generate --schema=packages/database/prisma/schema.prisma
 
 CMD ["node", "apps/worker/dist/index.js"]
+

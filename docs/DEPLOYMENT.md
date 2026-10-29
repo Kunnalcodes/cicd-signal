@@ -278,3 +278,4 @@ jobs:
 | **Build fails on Render** | Ensure `Node.js` version is set to 22 in environment variables |
 | **Worker not processing jobs** | Check Redis connection and `REDIS_URL` env var |
 | **Google OAuth redirect mismatch** | Update `GOOGLE_CALLBACK_URL` to `https://<render-api>/api/v1/auth/google/callback` |
+
